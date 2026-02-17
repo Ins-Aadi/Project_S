@@ -3,13 +3,13 @@ import numpy as np
 import cv2
 
 IMG_SIZE = 224
-CLASS_NAMES = ['flat', 'mud', 'stairs']
+CLASS_NAMES = ['flat', 'mouse','mud', 'stairs']
 interpreter = tf.lite.Interpreter(model_path="model.tflite")
 interpreter.allocate_tensors()
 
 input_details = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
-image = cv2.imread("000005.jpg")
+image = cv2.imread("image.jpeg")
 image = cv2.resize(image, (IMG_SIZE, IMG_SIZE))
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 image = image / 255.0
