@@ -1,0 +1,26 @@
+<annotation>
+	<folder>mouse</folder>
+	<filename>000007.jpg</filename>
+	<path>D:\code\model train\dataset\mouse\000007.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3679</width>
+		<height>2709</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mouse</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>409</xmin>
+			<ymin>616</ymin>
+			<xmax>3127</xmax>
+			<ymax>1816</ymax>
+		</bndbox>
+	</object>
+</annotation>
